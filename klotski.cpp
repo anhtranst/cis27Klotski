@@ -371,6 +371,8 @@ int main()
 	positionStack.emptyStack();
 	delete[] posMatrix;
 	posMatrix = nullptr;
+	delete[] solMatrix;
+	solMatrix = nullptr;
 
 	return 0;
 }
